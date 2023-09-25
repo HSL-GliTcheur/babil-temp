@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    *::selection {
+        background-color: #1E1E1E;
+        color: #a36201;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    *::selection {
+        background-color: #e9e9e9;
+        color: #a36201;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    * {
+        color: #fff;
+    }
+
+    body {
+        background-color: #1e1e1e;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+
+    * {
+        color: #000;
+    }
+
+    body {
+        background-color: #e9e9e9;
+    }
+}
