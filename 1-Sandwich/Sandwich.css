@@ -49,7 +49,7 @@
 }
 
 .container {
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -57,35 +57,14 @@
 
 .box {
     display: block;
-    width: 20vw;
+    width: auto;
     height: 20vh;
     border-radius: 20px;
     border: 2px solid #a36201;
     transition: ease-in-out 0.2s;
+    margin-top: 10vh;
 }
 
-.box-img {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-}
-
-.box-prix {
-    display: flex;
-    align-items: end;
-    justify-content: center;
-}
-
-.box-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20vw;
-    height: 20vh;
-    border-radius: 20px;
-    border: 1.9px solid #a36201;
-    transition: ease-in-out 0.2s;
-}
 
 .box:hover {
     transform: scale(1.1, 1.1);
@@ -97,7 +76,7 @@
 
 
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
     .container {
         margin-top: 10vh;
         display: flex;
@@ -107,23 +86,16 @@
 
     .box {
         margin: auto;
-        width: 60vw;
+        width: auto;
         height: 20vh;
         margin-top: 5vh;
-    }
-
-    .box-2 {
-        margin: auto;
-        width: 40vw;
-        height: 20vh;
-        margin-top: 5vh;
-        border: 2px solid #a36201;
     }
 }
 
 .lien {
     display: flex;
     justify-content: center;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -133,10 +105,10 @@
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    border-radius: 20px;
     height: 80%;
-    max-width: 100%;
+    max-width: 60vw;
     display: flex;
+    border-radius: 20px;
     align-items: start;
 
 }
