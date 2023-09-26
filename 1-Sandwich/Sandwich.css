@@ -58,7 +58,7 @@
 .box {
     display: block;
     width: auto;
-    height: 20vh;
+    height: 22vh;
     border-radius: 20px;
     border: 2px solid #a36201;
     transition: ease-in-out 0.2s;
@@ -87,7 +87,7 @@
     .box {
         margin: auto;
         width: auto;
-        height: 20vh;
+        height: 22vh;
         margin-top: 5vh;
     }
 }
