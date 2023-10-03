@@ -58,11 +58,14 @@
 .box {
     display: block;
     width: auto;
-    height: 22vh;
+    max-width: 30vw;
+    height: auto;
+    max-height: 28vh;
     border-radius: 20px;
     border: 2px solid #a36201;
     transition: ease-in-out 0.2s;
     margin-top: 10vh;
+    /* padding-bottom: 3px; */
 }
 
 
@@ -87,8 +90,11 @@
     .box {
         margin: auto;
         width: auto;
-        height: 22vh;
+        height: 24vh;
         margin-top: 5vh;
+        max-width: none;
+        max-height: none;
+        /* padding-bottom: 8px; */
     }
 }
 
@@ -97,7 +103,6 @@
     justify-content: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .image {
