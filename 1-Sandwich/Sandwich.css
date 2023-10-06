@@ -81,25 +81,6 @@
 
 
 
-@media (max-width: 900px) {
-    .container {
-        /* margin-top: 10vh;
-        display: flex;
-        margin: auto;
-        flex-direction: column; */
-    }
-
-    .box {
-        /* margin: auto;
-        width: auto;
-        height: 24vh;
-        margin-top: 5vh;
-        max-width: none;
-        max-height: none; */
-        /* padding-bottom: 8px; */
-    }
-}
-
 .lien {
     display: flex;
     justify-content: center;
