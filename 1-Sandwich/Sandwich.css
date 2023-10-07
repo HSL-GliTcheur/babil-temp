@@ -68,6 +68,7 @@
     padding-bottom: 3px;
     flex-basis: 2000;
     flex-grow: 1;
+    padding-bottom: calc(1.5vh);
 }
 
 
@@ -97,5 +98,4 @@
     height: 80%;
     max-width: 60%;
     align-items: start;
-    overflow: hidden;
 }
