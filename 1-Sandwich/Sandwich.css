@@ -71,6 +71,12 @@
     padding-bottom: calc(1.5vh);
 }
 
+@media (max-height: 750px) {
+    .box {
+        padding-bottom: calc(2.3vh);
+    }
+}
+
 
 .box:hover {
     transform: scale(1.1, 1.1);
