@@ -106,3 +106,33 @@
     width: 100%;
     align-items: start;
 }
+
+
+.back-container {
+    display: flex;
+    position: fixed;
+    left: 5%;
+    top: 90%;
+}
+
+.back {
+    display: flex;
+    position: fixed;
+    left: 5%;
+    top: 90%;
+    width: 80px;
+    z-index: 500;
+}
+
+a {
+    display: flex;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    z-index: 501;
+}
+
+.void {
+    display: flex;
+    height: 10vh;
+}
