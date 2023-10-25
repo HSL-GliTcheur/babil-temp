@@ -51,31 +51,32 @@
 .container {
     /* margin-top: 10vh; */
     justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 5rem;
+    margin: 2rem;
+    align-items: center;
 }
 
 .box {
-    display: block;
-    max-width: 28vw;
-    min-width: 28vh;
+    display: initial;
+    width: 30vh;
     max-height: 20vh;
     border-radius: 20px;
     border: 2px solid #a36201;
     transition: ease-in-out 0.2s;
     margin-top: 10vh;
-    padding-bottom: 3px;
-    flex-basis: 2000;
-    flex-grow: 1;
     padding-bottom: calc(1.5vh);
 }
 
 @media (max-height: 750px) {
     .box {
         padding-bottom: calc(2.3vh);
+        margin-top: 5vh;
     }
 }
+
+/* refaire les marges sur iphone voir sur discord avec mathis */
 
 
 .box:hover {
@@ -102,6 +103,6 @@
     justify-content: center;
     border-radius: 20px;
     height: 80%;
-    max-width: 60%;
+    width: 100%;
     align-items: start;
 }
